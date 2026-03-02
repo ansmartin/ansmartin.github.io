@@ -149,6 +149,11 @@ body {
     margin: auto;
 }
 
+.w-500{
+    max-width: 500px;
+    margin: auto;
+}
+
 /* for the grid system */
 .grid-system-2{
     display: grid;
