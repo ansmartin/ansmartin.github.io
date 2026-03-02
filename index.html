@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>Página web de Anselmo</title>
+    <!-- Adding favicon for older and modern browsers,
+        It is best to add favicon to the main folder, 
+        I used an only ico converter for best result,
+        Do not forget to clear you cache to see the changes -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="#index">Inicio</a></li>
+            <li><a href="#about-me">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#studies">Formación</a></li>
+            <li><a href="#contact-me">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- introduction -->
+    <section id="index">
+        <header class="grid-system-2 w-900 padding">
+            <section class="align-center">
+                <h1 class="medium-spacing">¡Hola! Soy</h1>
+                <h1 class="large">Anselmo Martínez Martínez</h1>
+                <h1 class="medium-spacing">Ingeniero informático</h1>
+            </section>
+            <section class="center align-center">
+                <img class="header-img max-width max-height" src="assets/profile-pic.png" alt="profile-picture">
+            </section>
+        </header>
+    </section>
+
+    <section class="padding-bottom3"></section>
+
+    <!-- quote -->
+    <article class="baby-blue"></article>
+
+    <!-- about me -->
+    <section id="about-me">
+        <h3 class="main-title center padding"></h3>
+    </section>
+    <section class="wrapper">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/coding.jpg" alt="about-me-logo">
+        </section>
+        <section class="justify align-center">
+            <p class="bold">Sobre mí</p>
+            <p>
+            Soy un apasionado de la programación, el desarrollo de software y la ingeniería de datos.
+            Tengo experiencia práctica en proyectos de desarrollo de aplicaciones y gestión de bases de datos. 
+            </p>
+            <p>
+            Me considero una persona proactiva, analítica y con entusiasmo por seguir aprendiendo.
+            </p>    
+        </section>
+    </section>
+
+    <section class="padding-bottom3"></section>
+
+
+    <!-- skills -->
+    <!-- 
+    <section class="wrapper">
+        <section class="column">
+            <p class="padding-bottom">Technical skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>html</p>
+                        <span class="progress-bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <p>css</p>
+                        <span class="progress-bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <p>javascript</p>
+                        <span class="progress-bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <p>php, mysql</p>
+                        <span class="progress-bar"><span class="php"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="column">
+            <p class="padding-bottom">Professional skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>communication</p>
+                        <span class="progress-bar"><span class="comm-adapt"></span></span>
+                    </li>
+                    <li>
+                        <p>teamplayer, adaptability</p>
+                        <span class="progress-bar"><span class="team-player"></span></span>
+                    </li>
+                    <li>
+                        <p>problem solving</p>
+                        <span class="progress-bar"><span class="problem-solving"></span></span>
+                    </li>
+                    <li>
+                        <p>open-minded</p>
+                        <span class="progress-bar"><span class="open-minded"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </section>
+    </section>
+    -->
+
+    <!-- Projects -->
+    <section id="projects">
+        <h3 class="main-title center padding">Proyectos desarrollados</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column card justify flex">
+            <img class="box" src="assets/projects/tfg.jpg" alt="project1">
+            <p class="small-mid padding bold center">Sistema de realidad virtual para la simulación del vuelo de un UAV en robótica asistencial</p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/projects/tfm_muii.jpg" alt="project2">
+            <p class="small-mid padding bold center">Reconocimiento de emociones en avatares para simulador de vehículos aéreos no tripulados en robótica asistencial.</p>
+            <p class="padding-top bottom"><a href="https://github.com/ansmartin/Emotion_detector" class="button-outline">GitHub</a></p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/projects/tfm_cidaen.jpg" alt="project3">
+            <p class="small-mid padding bold center">Caso práctico end-to-end: extracción de datos de la API de PokéAPI, procesamiento con ETLs y despliegue interactivo en la nube con Streamlit.</p>
+            <p class="padding-top bottom"><a href="https://github.com/ansmartin/cidaen-tfm-streamlit" class="button-outline">GitHub</a></p>
+        </section>
+    </section>
+    <section class="wrapper">
+        <section class="column card justify flex">
+            <img class="box" src="assets/projects/lpjjfg.jpg" alt="project4">
+            <p class="small-mid padding bold center">Videojuego de lucha 2D con multijugador local y online, modo de entrenamiento y opciones de accesibilidad como configuración de botones y sonido.</p>
+            <p class="padding-top bottom">
+                <a href="https://ansmartin.itch.io/low-poly-jojo-fighting-game" class="button-outline">Web</a>
+                <a href="https://www.youtube.com/watch?v=W8fkRK8wbJs" class="button-outline">Vídeo</a> 
+            </p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/projects/avry-rushdown.jpg" alt="project5">
+            <p class="small-mid padding bold center">Aplicación para gestión de torneos de videojuegos de Pokémon. Desarrollo de la parte del back-end con Python, gestión de la base de datos con SQLite y creación de una API REST.</p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box">
+            <p class="small-mid padding bold center"></p>
+        </section>
+    </section>
+
+    <section class="padding-bottom3"></section>
+
+
+    <!-- Experience -->
+    <section id="experience">
+        <h3 class="main-title center padding">Experiencia laboral</h3>
+    </section>
+    <section class="w-700 padding center baby-blue-light">
+        <section>
+            <p class="bold">DESARROLLADOR DE APLICACIONES</p>
+            <p class="small bold blue">Autónomo, Albacete</p>
+            <p class="small">Enero 2022 - Febrero 2026 (4 años y 2 meses)</p>
+            <p>Desarrollo y programación de aplicaciones interactivas en lenguaje Python y videojuegos en lenguaje C# con el motor de Unity.</p>
+            <section>
+                <!-- <span>Skills:</span> -->
+                <span class="small rounded-full-blue">Python</span>
+                <span class="small rounded-full-blue">Selenium</span>
+                <span class="small rounded-full-blue">C#</span>
+                <span class="small rounded-full-blue">Unity</span>
+            </section>
+        </section>
+    </section>
+    <section class="w-700 padding center baby-blue-light">
+        <section>
+            <p class="bold">INGENIERO DE SOFTWARE</p>
+            <center><a href="https://www.capgemini.com/es-es/"><img class="box" src="assets/capgemini.png"></a></center>
+            <p class="small bold blue">Capgemini S.A., Murcia</p>
+            <p class="small">Febrero 2021 - Diciembre 2021 (11 meses)</p>
+            <p>Tareas de valoración, desarrollo de software, resolución de peticiones e incidencias para arreglar código de aplicaciones en lenguaje Java y gestión de bases de datos relacionales con SQL.</p>
+            <section>
+                <!-- <span>Skills:</span> -->
+                <span class="small rounded-full-blue">Java</span>
+                <span class="small rounded-full-blue">SQL</span>
+            </section>
+        </section>
+    </section>
+    <section class="w-700 padding center baby-blue-light">
+        <section>
+            <p class="bold">DESARROLLADOR DE SOFTWARE (PRÁCTICAS)</p>
+            <center><a href="https://www.yottadesarrollos.com/"><img class="box" src="assets/yotta.jpg"></a></center>
+            <p class="small bold blue">Yotta Desarrollos Tecnológicos S.L., Albacete</p>
+            <p class="small">Julio 2020 - Septiembre 2020 (3 meses)</p>
+            <p>Desarrollo de herramientas en lenguaje Python que recopilan datos de webs de manera automática y los guardan en bases de datos no relacionales para su posterior análisis.</p>
+            <section>
+                <!-- <span>Skills:</span> -->
+                <span class="small rounded-full-blue">Python</span>
+                <span class="small rounded-full-blue">MongoDB</span>
+            </section>
+        </section>
+    </section>
+
+    <section class="padding-bottom3"></section>
+
+
+    <!-- Studies -->
+    <section id="studies">
+        <h3 class="main-title center padding">Educación</h3>
+    </section>
+    <section class="w-700 padding center baby-blue-light">
+        <section>
+            <p class="bold">MÁSTER DE FORMACIÓN PERMANENTE EN CIENCIA DE DATOS E INGENIERÍA DE DATOS EN LA NUBE</p>
+            <center><a href="https://www.cidaen.es/"><img class="box" src="assets/cidaen.jpg"></a></center>
+            <p class="small bold blue">Escuela Superior de Ingeniería Informática de Albacete</p>
+            <p class="small bold blue">Universidad de Castilla-La Mancha</p>
+            <p class="small">Octubre 2024 - Julio 2025</p>
+        </section>
+    </section>
+    <section class="w-700 padding center baby-blue-light">
+        <section>
+            <p class="bold">MÁSTER UNIVERSITARIO EN INGENIERÍA INFORMÁTICA</p>
+            <center><a href="https://www.uclm.es/estudios/masteres/master-ingenieria-informatica%202024"><img class="box" src="assets/esiiab.jpg"></a></center>
+            <p class="small bold blue">Escuela Superior de Ingeniería Informática de Albacete</p>
+            <p class="small bold blue">Universidad de Castilla-La Mancha</p>
+            <p class="small">Septiembre 2019 - Septiembre 2020</p>
+        </section>
+    </section>
+    <section class="w-700 padding center baby-blue-light">
+        <section>
+            <p class="bold">GRADO EN INGENIERÍA INFORMÁTICA</p>
+            <center><a href="https://esiiab.uclm.es/datos-del-titulo/"><img class="box" src="assets/esiiab.jpg"></a></center>
+            <p class="small bold blue">Escuela Superior de Ingeniería Informática de Albacete</p>
+            <p class="small bold blue">Universidad de Castilla-La Mancha</p>
+            <p class="small">Septiembre 2014 - Septiembre 2019</p>
+        </section>
+    </section>
+
+    <section class="padding-bottom3"></section>
+    <section class="padding-bottom3"></section>
+    <section class="padding-bottom3"></section>
+
+
+    <!-- contact me -->
+    <section class="grid-system-2 w-900 padding" id="contact-me">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/coding-window.png" alt="contact-me-illustration">
+        </section>
+        <section class="margin-auto align-center">
+            <h1 class="medium-spacing center">Contacto<span></span></h1>
+            <section class="box-contact margin-auto padding-top">
+                <span>
+                    <a href="https://www.linkedin.com/in/anselmo-mart%C3%ADnez-mart%C3%ADnez-6934651ab/" target="_blank"><img class="logo" src="assets/linkedin.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="https://github.com/ansmartin/" target="_blank"><img class="logo" src="assets/github.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="mailto:anselmm95@gmail.com" target="_blank"><img class="logo" src="assets/email.png" alt=""></a>
+                    <p>anselmm95@gmail.com</p>
+                </span>
+            </section>
+        </section>
+        
+    </section>
+
+</body>
+
+</html>
