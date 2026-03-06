@@ -121,8 +121,9 @@ body {
     border-radius: 3.40282e38px;
     background-color: rgb(0, 140, 255);
     margin: 10px auto;
-    padding: 10px;
+    padding: 6px;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 /* Setting alignments and sizing */
@@ -554,6 +555,12 @@ footer{
     display: block;
     width: 260px;
 }
+
+.portrait{
+  border-style: solid;
+  border-color: rgb(0, 140, 255);
+}
+
 /* ---------------------------------- */
 
 /* CONTACT ME */
